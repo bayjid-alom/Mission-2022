@@ -2,9 +2,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-p {
-    font-size: 45px;
-    text-align: center;
+:root {
+    --primary-color: #3E3E3E;
+    --button-color: #FF5959;
+}
+
+/* Shared styles */
+
+
+.primary-btn {
+    background-color: var(--button-color);
+    color: white;
+    font-width: 600;
+    padding: 12px 37px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+
+/* Banner related styles */
+
+header .banner-container {
+    max-width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 85px;
+    gap: 131px;
+}
+
+
+.banner-container .banner-content {
+    max-width: 520px;
+}
+
+.banner-container .banner-content h2 {
+    font-size: 55px;
+    font-width: 700;
+    margin-bottom: 15px;
+    padding-left: 10px;
+
+}
+
+.banner-container .banner-content p {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: var(--primary-color);
+}
+
+.border-left {
+    border-left: 5px solid #FF5959;
+}
+
+.banner-content .orange {
+    color: #FFAD5A;
+}
+
+.banner-container .banner-image {
+    max-width: 426px;
+}
+
+.banner-container .banner-image img {
+    width: 100%;
+    vertical-align: middle;
 }
