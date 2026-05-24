@@ -1,0 +1,28 @@
+@media screen and (max-width:576px) {
+
+    /* Banner Realted styles */
+
+    header {
+        margin-top: 35px;
+    }
+
+    header .banner-container {
+        max-width: 97%;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 25px;
+        gap: 60px;
+    }
+
+    .banner-container .banner-content {
+        max-width: 95%;
+    }
+
+    .banner-container .banner-content h2 {
+        font-size: 40px;
+    }
+
+
+    /*  */
+
+}

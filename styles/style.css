@@ -12,7 +12,6 @@
 
 /* Shared styles */
 
-
 .primary-btn {
     background-color: var(--button-color);
     color: white;
@@ -22,9 +21,22 @@
     border-radius: 6px;
     cursor: pointer;
     margin-bottom: 18px;
+
+    transition: transform 0.5s linear;
 }
 
+.primary-btn:hover {
+    transform: scale(1.05);
+}
+
+
+
 /* Banner related styles */
+
+header {
+
+    margin-top: 85px;
+}
 
 header .banner-container {
     max-width: 75%;
@@ -32,7 +44,6 @@ header .banner-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 85px;
     gap: 131px;
 }
 
@@ -46,6 +57,7 @@ header .banner-container {
     font-width: 700;
     margin-bottom: 15px;
     padding-left: 10px;
+    color: #333333;
 
 }
 
@@ -53,10 +65,12 @@ header .banner-container {
     font-size: 18px;
     margin-bottom: 16px;
     color: var(--primary-color);
+    line-height: 28px;
 }
 
 .border-left {
     border-left: 5px solid #FF5959;
+    border-radius: 6px;
 }
 
 .banner-content .orange {
