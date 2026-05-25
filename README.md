@@ -35,7 +35,6 @@ The website is optimized for multiple screen sizes, including:
 - 📱 Mobile Devices
 - 💻 Laptops
 - 🖥️ Desktop Screens
-- 📟 Tablets
 
 It ensures a smooth and user-friendly browsing experience across all devices.
 
