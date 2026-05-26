@@ -62,4 +62,58 @@
         background-color: rgba(255, 244, 214, 1);
     }
 
+
+
+    /* Wide cards */
+
+
+    .develop-section {
+        max-width: 92%;
+        margin: 0 auto;
+        margin-bottom: 70px;
+
+    }
+
+
+    .develop-container {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .develop-content {
+        max-width: 98% ;
+    }
+
+    .develop-content h2 {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 17px;
+    }
+
+    .develop-content p {
+        font-size: 16px;
+        margin-bottom: 16px;
+        color: var(--primary-color);
+        line-height: 28px;
+    }
+
+    .develop-image {
+        max-width: 100%;
+    }
+
+    .develop-container .develop-image img {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .wide-1 {
+        margin-bottom: 70px;
+    }
+
+    .wide-2 {
+        flex-direction: column;
+    }
 }
