@@ -160,3 +160,62 @@ main .card-section {
     width: 100%;
     margin-bottom: 12px;
 }
+
+
+/* Develop section */
+
+.develop-section {
+    max-width: 77%;
+    margin: 0 auto;
+    margin-bottom: 130px;
+
+    /* background: url("./images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right; */
+}
+
+
+.develop-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+}
+
+.develop-content {
+    max-width: 654px;
+}
+
+.develop-content h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.develop-content p {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: var(--primary-color);
+    line-height: 28px;
+}
+
+.develop-image {
+    max-width: 400px;
+}
+
+.develop-container .develop-image img {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+}
+
+.wide-1 {
+    margin-bottom: 50px;
+}
+
+.wide-2 {
+    flex-direction: row;
+}
