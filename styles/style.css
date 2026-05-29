@@ -219,3 +219,72 @@ main .card-section {
 .wide-2 {
     flex-direction: row;
 }
+
+
+/* Go corona Section */
+
+.go-corona-section {
+    max-width: 77%;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    /* border: 1px solid black; */
+}
+
+.go-corona-section>.heading {
+    font-size: 48px;
+    text-align: center;
+margin-bottom: 50px;
+}
+
+
+
+
+
+.goCorona-container {
+    max-width: 99%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 131px;
+}
+
+
+.go-content {
+    max-width: 525px;
+}
+
+.go-content h2 {
+    font-size: 48px;
+    font-width: 700;
+    margin-bottom: 15px;
+    color: #333333;
+
+}
+
+.orange-2{
+    color: #FFAD5A;
+}
+
+.go-content p {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: var(--primary-color);
+    line-height: 28px;
+}
+
+
+
+.orange {
+    color: #FFAD5A;
+}
+
+.go-image {
+    /* max-width: 338px;
+    height: 100%; */
+}
+
+.go-image img {
+    width: 100%;
+    vertical-align: middle;
+}
