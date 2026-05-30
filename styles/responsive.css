@@ -155,6 +155,33 @@
         font-size: 15px;
     }
 
+    /* Footer */
+
+
+    footer {
+        padding: 22px 0 24px 0;
+    }
+
+    .footer-container {
+        max-width: 94%;
+    }
+
+    .footer-container .img {
+        margin: 0 auto;
+        /* max-width: 196px; */
+    }
+
+    .img img {
+        width: 100%;
+
+    }
+
+    .footer-container p {
+        font-size: 16px;
+        color: #D9DBE1;
+        margin-top: 14px;
+    }
+
 
 
 
