@@ -300,3 +300,33 @@ main .card-section {
     opacity: 0.9;
 }
 
+
+
+/* Footer */
+
+footer {
+    background-color: #0B0D17;
+    padding: 40px 0 46px 0;
+}
+
+.footer-container {
+    max-width: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-container .img {
+    margin: 0 auto;
+    max-width: 196px;
+}
+
+.img img {
+    width: 100%;
+
+}
+
+.footer-container p {
+    font-size: 16px;
+    color: #D9DBE1;
+    margin-top: 24px;
+}
